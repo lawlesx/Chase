@@ -22,7 +22,7 @@ contract Chase {
     }
 
     // Function to deposit ETH
-    function deposit() external onlyOwner payable {
+    function deposit() external payable {
         totalAmount += msg.value;
     }
 
